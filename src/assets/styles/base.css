@@ -1,0 +1,43 @@
+@import url('../fonts/fonts.css');
+
+@unocss base;       
+@unocss components;  
+@unocss utilities;  
+
+body {
+  @apply text-zinc-100;
+  @apply bg-black;
+  background-image: url('@/assets/images/information-bg.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  background-size: 400px;
+} 
+
+.text-shadow {
+  text-shadow: 1px 1px 0 #000;
+}
+
+
+img,video {
+  max-width: 100%;
+  height: auto
+}
+
+img,svg,video,canvas,audio,iframe,embed,object {
+  display: block;
+  vertical-align: middle
+}
+
+img,video {
+  max-width: 100%;
+  height: auto
+}
+
+[hidden] {
+  display: none
+}
+
+.el-scrollbar .el-scrollbar__bar {
+   opacity: 1 !important;
+}

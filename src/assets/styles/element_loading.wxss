@@ -1,0 +1,19 @@
+.el-loading-spinner {
+  /*这个是自己想设置的 gif 加载动图*/
+  background-image: url('@/assets/images/loading/oct_loading.gif');
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
+  height: 200px;
+  width: 100%;
+  background-position: center;
+  top: 40%;
+  position: absolute;
+}
+.el-loading-spinner .circular {
+  /*隐藏 之前  element-ui  默认的 loading 动画*/
+  display: none;
+}
+.el-loading-spinner .el-loading-text {
+  /*为了使得文字在loading图下面*/
+  margin: 85px 0px;
+}

@@ -1,0 +1,27 @@
+{
+  "startPage":{
+    "create":"Create",
+    "join":"Join"
+  },
+  "create":{
+    "title":"Create Room",
+    "NeedCompere":"Do you need a host ?",
+    "userName":"Please enter username ：",
+    "participation":"Number of participants : ",
+    "NeedMiddleRole":"Do you need DAIDAI Squid?",
+    "return":"Return",
+    "created":"Sure"
+  },
+  "join":{
+    "title":"Join Room",
+    "roomCode":"Please enter room Code: ",
+    "userName":"Please enter username : ",
+    "return":"Return",
+    "created":"Sure"
+  },
+  "footer": {
+    "term": "This website is not affiliated with Nintendo. All product names, logos, and brands are property of their respective owners.",
+    "markerTitle": "Squid Maker",
+    "maker": "Blaker Polo° Sola Nighter Huaxue Jiu YRYY_White Klenin Zhu88 Qqilin1213"
+  }
+}

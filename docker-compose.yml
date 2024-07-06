@@ -1,0 +1,17 @@
+# 命令执行 docker-compose -f docker-compose.yml up -d
+version: '3.8'
+services:
+  sk_frontend:
+    image: nginx:latest
+    container_name: sk_frontend
+    restart: always
+    ports:
+      - "3000:80"
+    volumes:
+      - ./dist/:/usr/share/nginx/html/
+      - ./nginx/:/etc/nginx/conf.d/
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"

@@ -1,0 +1,27 @@
+{
+  "startPage": {
+    "create": "创建比赛",
+    "join": "参加比赛"
+  },
+  "create": {
+    "title": "创建房间",
+    "NeedCompere": "是否需要主持人 ？",
+    "userName": "请输入你最鱿型的名称 : ",
+    "participation": "参赛人数：",
+    "NeedMiddleRole":"是否存在呆呆鱿?",
+    "return": "返回了鱿",
+    "created": "确定了鱿"
+  },
+  "join": {
+    "title": "加入房间",
+    "roomCode": "请输入房间号: ",
+    "userName": "请输入你最鱿型的名称 : ",
+    "return": "返回了鱿",
+    "created": "确定了鱿"
+  },
+  "footer": {
+    "term": "本网站不隶属于任天堂。所有产品名称、徽标和品牌均为其各自所有者的财产。",
+    "markerTitle": "鱿鱼杀制作组",
+    "maker": "Blaker Polo° Sola Nighter Huaxue Jiu YRYY_White Klenin Zhu88 Qqilin1213"
+  }
+}
