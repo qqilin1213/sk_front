@@ -1,9 +1,6 @@
 <div align="center">
     <img src="https://github.com/qqilin1213/picx-images-hosting/raw/master/IMG_2762.99t8ayca0s.jpg" width="450" />
 </div>
-# 线上体验地址
-
-[前端地址](http://squid.qqilin1213.top:3000/)
 
 # 快速开始
 
